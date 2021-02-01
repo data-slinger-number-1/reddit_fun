@@ -1,0 +1,11 @@
+output/*
+log/*
+src/.Rhistory
+*.Rproj.*
+.Rhistory
+src/.Rproj.user/*
+src/.Rproj.user/
+.vscode
+.vscode/*
+.DS_Store
+
