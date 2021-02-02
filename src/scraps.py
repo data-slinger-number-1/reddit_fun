@@ -6,7 +6,7 @@ import csv
 
 reg = re.compile('(__label__\S+) (.*)')
 
-project_dir = '/Users/scharlesworth/Dropbox/GlobalGits/reddit_fun/'
+project_dir = '~/Dropbox/GlobalGits/reddit_fun/'
 
 with open('%s/output/train_clean.txt' % (project_dir), 'r') as f:
         stuff = f.readlines()

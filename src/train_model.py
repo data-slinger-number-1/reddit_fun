@@ -1,6 +1,6 @@
 import random
 
-output_dir = '/Users/scharlesworth/Dropbox/GlobalGits/reddit_fun/'
+output_dir = '~/Dropbox/GlobalGits/reddit_fun/'
 
 with open('%s/output/comments.txt' % (output_dir), 'r') as f:
     all_shit = f.readlines()

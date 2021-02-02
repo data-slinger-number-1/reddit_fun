@@ -4,17 +4,17 @@ import praw
 import os
 
 
-reddit_username = 'BobDope'
+reddit_username = os.environ['reddit_username']
 reddit_password = os.environ['reddit_pass']
 
 app_id = 'V5ZGRnUFVkQGiw'
 app_secret = os.environ['reddit_secret']
 
 reddit = praw.Reddit(
-    user_agent="'reddit_analytics by /u/BobDope 0.0.1'",
+    user_agent="'reddit_analytics by /u/%s 0.0.1'" % reddit_username,
     client_id=app_id,
     client_secret=app_secret,
-    username="BobDope",
+    username=reddit_username,
     password=reddit_password
 )
 
@@ -40,8 +40,6 @@ submission.comments.replace_more(limit=0)
 for top_level_comment in submission.comments:
     print(top_level_comment.body)
 
-
-
 submission.comments.replace_more(limit=None)
 for top_level_comment in submission.comments:
     for second_level_comment in top_level_comment.replies:
@@ -57,7 +55,6 @@ while comment_queue:
 submission.comments.replace_more(limit=None)
 for comment in submission.comments.list():
     print(comment.body)
-
 
 #also
 

@@ -2,7 +2,7 @@ import fasttext
 import re
 import csv
 
-project_dir = '/Users/scharlesworth/Dropbox/GlobalGits/reddit_fun/'
+project_dir = '~/Dropbox/GlobalGits/reddit_fun/'
 
 def do_modeling(model_name, input, epoch, lr, wordNgrams):
     model = fasttext.train_supervised(input=input, lr=lr, epoch=epoch, wordNgrams=wordNgrams)

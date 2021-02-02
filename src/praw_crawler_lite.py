@@ -42,17 +42,17 @@ def preprocess_text(document):
 
         return preprocessed_text
 
-reddit_username = 'BobDope'
+reddit_username = os.environ['reddit_username']
 reddit_password = os.environ['reddit_pass']
 
 app_id = 'V5ZGRnUFVkQGiw'
 app_secret = os.environ['reddit_secret']
 
 reddit = praw.Reddit(
-    user_agent="'reddit_analytics by /u/BobDope 0.0.1'",
+    user_agent="'reddit_analytics by /u/%s 0.0.1'" % reddit_username,
     client_id=app_id,
     client_secret=app_secret,
-    username="BobDope",
+    username=reddit_username,
     password=reddit_password
 )
 
@@ -89,7 +89,7 @@ all_shit = all_shit + grab_comments("BloomingtonModerate", 2000)
 
 print("We got %s comments" % len(all_shit))
 
-output_dir = '/Users/scharlesworth/Dropbox/GlobalGits/reddit_fun/'
+output_dir = '~/Dropbox/GlobalGits/reddit_fun/'
 with open('%s/output/comments.csv' % (output_dir), 'w') as f:
     f.write("id, created_utc, subreddit, author, body, ups, downs\n")
     for shit in all_shit:
