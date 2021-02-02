@@ -1,0 +1,41 @@
+attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
+blis @ file:///opt/concourse/worker/volumes/live/cd6a6bea-d063-4b62-4c10-fcc89b17d0ac/volume/cython-blis_1594246851083/work
+brotlipy==0.7.0
+catalogue==1.0.0
+certifi==2020.12.5
+cffi @ file:///opt/concourse/worker/volumes/live/2aa8abfe-8b8d-4889-78d9-837b74c3cd64/volume/cffi_1606255119410/work
+chardet @ file:///opt/concourse/worker/volumes/live/9efbf151-b45b-463d-6340-a5c399bf00b7/volume/chardet_1607706825988/work
+cryptography @ file:///opt/concourse/worker/volumes/live/41c3d62a-f1f8-46ce-414a-9adaf4ea7d96/volume/cryptography_1607636752064/work
+cymem @ file:///opt/concourse/worker/volumes/live/3e8d7428-f57d-4000-44e7-34ac8a744f13/volume/cymem_1605062299053/work
+fasttext @ file:///Users/scharlesworth/fastText-0.9.2
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+jsonschema==3.0.2
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+murmurhash @ file:///opt/concourse/worker/volumes/live/9a0582f9-9097-4dab-6d7a-fcf62b4968ae/volume/murmurhash_1607456116622/work
+numpy @ file:///opt/concourse/worker/volumes/live/a1b5ea96-b05c-40ba-5dfb-4542ece1c186/volume/numpy_and_numpy_base_1603491228242/work
+pandas==1.2.1
+plac @ file:///opt/concourse/worker/volumes/live/a94b6881-2d18-4055-5a3c-f24036f05ef6/volume/plac_1594259982880/work
+praw==7.1.0
+prawcore==1.5.0
+preshed @ file:///opt/concourse/worker/volumes/live/952fa955-acc7-4aa0-6766-86f802ea8ef1/volume/preshed_1608233410312/work
+pybind11==2.6.1
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
+pyrsistent @ file:///opt/concourse/worker/volumes/live/656e0c1b-ef87-4251-4a51-1290b2351993/volume/pyrsistent_1600141745371/work
+PySocks @ file:///opt/concourse/worker/volumes/live/ef943889-94fc-4539-798d-461c60b77804/volume/pysocks_1605305801690/work
+python-dateutil==2.8.1
+pytz==2020.5
+requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+six @ file:///opt/concourse/worker/volumes/live/f983ba11-c9fe-4dff-7ce7-d89b95b09771/volume/six_1605205318156/work
+spacy @ file:///opt/concourse/worker/volumes/live/fd793ab5-6978-4299-70e6-0346b438da84/volume/spacy_1608321078303/work
+srsly @ file:///opt/concourse/worker/volumes/live/61bca80b-5a93-4e60-4cec-c256b370e487/volume/srsly_1607548535538/work
+thinc @ file:///opt/concourse/worker/volumes/live/a13a1b3b-76d7-42ce-6802-6152f444ee83/volume/thinc_1607710162301/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1609788246169/work
+update-checker==0.18.0
+urllib3 @ file:///tmp/build/80754af9/urllib3_1606938623459/work
+wasabi @ file:///tmp/build/80754af9/wasabi_1599244993840/work
+websocket-client==0.57.0
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
