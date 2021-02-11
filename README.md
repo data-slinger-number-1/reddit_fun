@@ -5,7 +5,9 @@
 Make sure you define these environmental variables:
 
 reddit_username: your username on Reddit
+
 reddit_pass: your password
+
 reddit_secret: your secret for the reddit API. See TODO for more on setting this up.
 
 ### Python Virtual Enviroment
