@@ -10,13 +10,13 @@ reddit_secret: your secret for the reddit API. See TODO for more on setting this
 
 ### Python Virtual Enviroment
 
-User the requirements.txt file to set this up
+Use the requirements.txt file to set this up
 
 ## Files Explained
 
 ### me_model.py
 
-Checks predictions for training set. Generally not of great interest but we are looking at what's deemed 'relevant'.
+Checks predictions for training set.
 
 ### praw_crawler_lite.py
 
@@ -24,7 +24,7 @@ Grab the comments
 
 ### praw_crawler.py
 
-More some early experimental code, you don't really need it.
+Some early experimental code, you don't really need it.
 
 ### someExplore.R
 
@@ -32,7 +32,7 @@ R based exploration
 
 ### train_moddel.py
 
-Actually this 'shuffles' our comments
+This 'shuffles' our comments
 
 ### funtests.ipynb
 
