@@ -7,7 +7,7 @@ import os
 reddit_username = os.environ['reddit_username']
 reddit_password = os.environ['reddit_pass']
 
-app_id = 'V5ZGRnUFVkQGiw'
+app_id = os.environ['app_id']
 app_secret = os.environ['reddit_secret']
 
 reddit = praw.Reddit(
